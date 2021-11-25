@@ -7,11 +7,11 @@ static const unsigned int gappx     = 0;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Monoid Regular Nerd Font Complete:size=11", "Font Awesome 5 Free:size=14" };
+static const char *fonts[]          = { "Font Awesome 5 Free:size=13" };
 static const char dmenufont[]       = "Source Code Pro:size=12";
 
 /* tagging */
-static const char *tags[] = { ">_", "www", "", "4", "5", "6" };
+static const char *tags[] = { "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
