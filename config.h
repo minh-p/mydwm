@@ -2,8 +2,8 @@
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
-//static const unsigned int gappx     = 20;        /* gaps between windows */
-static const unsigned int gappx     = 0;        /* gaps between windows */
+static const unsigned int gappx     = 20;        /* gaps between windows */
+//static const unsigned int gappx     = 0;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -23,7 +23,7 @@ static const Rule rules[] = {
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 };
 
-#include "/home/hmp/.local/src/dwm/pywalcolorscheme/colors-wal-dwm.h"
+#include "/home/hmp/.cache/wal/colors-wal-dwm.h"
 
 /* layout(s) */
 static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
