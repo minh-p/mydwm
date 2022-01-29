@@ -58,7 +58,7 @@ cat <<CONF
     separator_height = 2
     padding = 0
     horizontal_padding = 8
-    frame_width = 3
+    frame_width = 1
 
 [experimental]
     per_monitor_dpi = false
