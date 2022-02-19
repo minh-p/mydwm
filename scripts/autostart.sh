@@ -1,5 +1,6 @@
 #!/bin/bash
-exec dwmblocks &
+# exec dwmblocks &
+exec slstatus &
 exec picom --experimental-backends &
 exec nitrogen --restore &
 exec dunst &
