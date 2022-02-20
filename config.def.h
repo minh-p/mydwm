@@ -33,8 +33,8 @@ static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen win
 
 /* Bartabgroups properties */
 #define BARTAB_BORDERS 1       // 0 = off, 1 = on
-#define BARTAB_BOTTOMBORDER 1  // 0 = off, 1 = on
-#define BARTAB_TAGSINDICATOR 1 // 0 = off, 1 = on if >1 client/view tag, 2 = always on
+#define BARTAB_BOTTOMBORDER 0  // 0 = off, 1 = on
+#define BARTAB_TAGSINDICATOR 0 // 0 = off, 1 = on if >1 client/view tag, 2 = always on
 #define BARTAB_TAGSPX 5        // # pixels for tag grid boxes
 #define BARTAB_TAGSROWS 3      // # rows in tag grid (9 tags, e.g. 3x3)
 static void (*bartabmonfns[])(Monitor *) = { monocle /* , customlayoutfn */ };
