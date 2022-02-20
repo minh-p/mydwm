@@ -4,7 +4,7 @@
 
 . $HOME/.cache/wal/colors.sh
 
-cat <<CONF
+cat << EOF > ~/.config/dunst/dunstrc
 [global]
     # Sort messages by urgency.
     sort = yes
@@ -86,4 +86,6 @@ separator_color = "${foreground}"
     msg_urgency = critical
     background = "${color15}"
     foreground = "${color14}"
-CONF
+EOF
+
+killall -q dunst && setsid dunst &
