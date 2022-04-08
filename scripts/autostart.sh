@@ -14,6 +14,7 @@ check_process_pkill() {
 check_process_killall slstatus
 check_process_pkill redshift
 check_process_pkill dunst
+check_process_killall mpd_discord_richpresence
 
 exec picom --experimental-backends &
 exec nitrogen --restore &
@@ -21,3 +22,4 @@ exec dunst &
 exec ~/.local/src/dwm/scripts/mappings.sh &
 exec slstatus &
 exec redshift -l $(curl -s "https://location.services.mozilla.com/v1/geolocate?key=geoclue" | jq -r '"\(.location.lat):\(.location.lng)"') &
+exec mpd_discord_richpresence &
